@@ -7,12 +7,43 @@
     "repo": "https://github.com/pure-clj/purescript-console.git",
     "version": "v4.1.0-clj1"
   },
+  "control": {
+    "dependencies": [
+      "prelude"
+    ],
+    "repo": "https://github.com/pure-clj/purescript-control.git",
+    "version": "v4.0.0-clj1"
+  },
   "effect": {
     "dependencies": [
       "prelude"
     ],
     "repo": "https://github.com/pure-clj/purescript-effect.git",
     "version": "v2.0.0-clj1"
+  },
+  "invariant": {
+    "dependencies": [
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript/purescript-invariant.git",
+    "version": "v4.0.0"
+  },
+  "maybe": {
+    "dependencies": [
+      "control",
+      "invariant",
+      "newtype",
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript/purescript-maybe.git",
+    "version": "v4.0.0"
+  },
+  "newtype": {
+    "dependencies": [
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript/purescript-newtype.git",
+    "version": "v3.0.0"
   },
   "prelude": {
     "dependencies": [],
