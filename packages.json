@@ -1,4 +1,12 @@
 {
+  "console": {
+    "dependencies": [
+      "effect",
+      "prelude"
+    ],
+    "repo": "https://github.com/pure-clj/purescript-console.git",
+    "version": "v4.1.0-clj1"
+  },
   "effect": {
     "dependencies": [
       "prelude"
