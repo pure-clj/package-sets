@@ -1,8 +1,6 @@
 # package-sets
 
-[![Build Status](https://travis-ci.org/purescript/package-sets.svg?branch=master)](https://travis-ci.org/purescript/package-sets)
-
-Hosts and builds PureScript package sets for `psc-package` using Travis.
+Hosts and builds PureScript ([Clojure backend](https://github.com/stackoverflow/pure-clj)) package sets for `psc-package`.
 
 ## Usage
 
