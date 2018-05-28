@@ -1,6 +1,6 @@
 # package-sets
 
-Hosts and builds PureScript ([Clojure backend](https://github.com/stackoverflow/pure-clj)) package sets for `psc-package`.
+Hosts PureScript ([Clojure backend](https://github.com/stackoverflow/pure-clj)) package sets for `psc-package`.
 
 ## Usage
 
