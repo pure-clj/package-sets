@@ -45,9 +45,19 @@
     "repo": "https://github.com/purescript/purescript-newtype.git",
     "version": "v3.0.0"
   },
+  "partial": {
+    "dependencies": [],
+    "repo": "https://github.com/pure-clj/purescript-partial.git",
+    "version": "v2.0.0-clj1"
+  },
   "prelude": {
     "dependencies": [],
     "repo": "https://github.com/pure-clj/purescript-prelude.git",
+    "version": "v4.0.0-clj1"
+  },
+  "unsafe-coerce": {
+    "dependencies": [],
+    "repo": "https://github.com/pure-clj/purescript-unsafe-coerce",
     "version": "v4.0.0-clj1"
   }
 }
