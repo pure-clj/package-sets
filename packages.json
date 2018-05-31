@@ -1,4 +1,21 @@
 {
+  "assert": {
+    "dependencies": [
+      "console",
+      "effect",
+      "prelude"
+    ],
+    "repo": "https://github.com/pure-clj/purescript-assert.git",
+    "version": "v4.0.0-clj1"
+  },
+  "bifunctors": {
+    "dependencies": [
+      "newtype",
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript/purescript-bifunctors.git",
+    "version": "v4.0.0"
+  },
   "console": {
     "dependencies": [
       "effect",
@@ -7,12 +24,42 @@
     "repo": "https://github.com/pure-clj/purescript-console.git",
     "version": "v4.1.0-clj1"
   },
+  "const": {
+    "dependencies": [
+      "contravariant",
+      "foldable-traversable",
+      "invariant",
+      "newtype",
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript/purescript-const.git",
+    "version": "v4.0.0"
+  },
+  "contravariant": {
+    "dependencies": [
+      "either",
+      "newtype",
+      "prelude",
+      "tuples"
+    ],
+    "repo": "https://github.com/purescript/purescript-contravariant.git",
+    "version": "v4.0.0"
+  },
   "control": {
     "dependencies": [
       "prelude"
     ],
     "repo": "https://github.com/pure-clj/purescript-control.git",
     "version": "v4.0.0-clj1"
+  },
+  "distributive": {
+    "dependencies": [
+      "identity",
+      "newtype",
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript/purescript-distributive.git",
+    "version": "v4.0.0"
   },
   "effect": {
     "dependencies": [
@@ -21,12 +68,67 @@
     "repo": "https://github.com/pure-clj/purescript-effect.git",
     "version": "v2.0.0-clj1"
   },
+  "either": {
+    "dependencies": [
+      "bifunctors",
+      "control",
+      "foldable-traversable",
+      "invariant",
+      "maybe",
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript/purescript-either.git",
+    "version": "v4.0.0"
+  },
+  "foldable-traversable": {
+    "dependencies": [
+      "bifunctors",
+      "control",
+      "maybe",
+      "newtype",
+      "orders",
+      "prelude"
+    ],
+    "repo": "https://github.com/pure-clj/purescript-foldable-traversable.git",
+    "version": "v4.0.0-clj1"
+  },
+  "globals": {
+    "dependencies": [],
+    "repo": "https://github.com/pure-clj/purescript-globals.git",
+    "version": "v4.0.0-clj1"
+  },
+  "identity": {
+    "dependencies": [
+      "control",
+      "foldable-traversable",
+      "invariant",
+      "newtype",
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript/purescript-identity.git",
+    "version": "v4.0.0"
+  },
+  "integers": {
+    "dependencies": [
+      "globals",
+      "math",
+      "maybe",
+      "prelude"
+    ],
+    "repo": "https://github.com/pure-clj/purescript-integers.git",
+    "version": "v4.0.0-clj1"
+  },
   "invariant": {
     "dependencies": [
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-invariant.git",
     "version": "v4.0.0"
+  },
+  "math": {
+    "dependencies": [],
+    "repo": "https://github.com/pure-clj/purescript-math.git",
+    "version": "v2.1.1-clj1"
   },
   "maybe": {
     "dependencies": [
@@ -45,6 +147,26 @@
     "repo": "https://github.com/purescript/purescript-newtype.git",
     "version": "v3.0.0"
   },
+  "nonempty": {
+    "dependencies": [
+      "control",
+      "foldable-traversable",
+      "maybe",
+      "prelude",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/purescript/purescript-nonempty.git",
+    "version": "v5.0.0"
+  },
+  "orders": {
+    "dependencies": [
+      "newtype",
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript/purescript-orders",
+    "version": "v4.0.0"
+  },
   "partial": {
     "dependencies": [],
     "repo": "https://github.com/pure-clj/purescript-partial.git",
@@ -54,6 +176,68 @@
     "dependencies": [],
     "repo": "https://github.com/pure-clj/purescript-prelude.git",
     "version": "v4.0.0-clj1"
+  },
+  "refs": {
+    "dependencies": [
+      "effect",
+      "prelude"
+    ],
+    "repo": "https://github.com/pure-clj/purescript-refs.git",
+    "version": "v4.1.0-clj1"
+  },
+  "st": {
+    "dependencies": [
+      "partial",
+      "prelude",
+      "tailrec"
+    ],
+    "repo": "https://github.com/pure-clj/purescript-st.git",
+    "version": "v4.0.0-clj1"
+  },
+  "tailrec": {
+    "dependencies": [
+      "bifunctors",
+      "effect",
+      "either",
+      "identity",
+      "maybe",
+      "partial",
+      "prelude",
+      "refs"
+    ],
+    "repo": "https://github.com/purescript/purescript-tailrec.git",
+    "version": "v4.0.0"
+  },
+  "tuples": {
+    "dependencies": [
+      "bifunctors",
+      "control",
+      "distributive",
+      "foldable-traversable",
+      "invariant",
+      "maybe",
+      "newtype",
+      "prelude",
+      "type-equality"
+    ],
+    "repo": "https://github.com/purescript/purescript-tuples.git",
+    "version": "v5.0.0"
+  },
+  "type-equality": {
+    "dependencies": [],
+    "repo": "https://github.com/purescript/purescript-type-equality.git",
+    "version": "v3.0.0"
+  },
+  "unfoldable": {
+    "dependencies": [
+      "foldable-traversable",
+      "maybe",
+      "partial",
+      "prelude",
+      "tuples"
+    ],
+    "repo": "https://github.com/pure-clj/purescript-unfoldable.git",
+    "version": "v4.0.0-clj"
   },
   "unsafe-coerce": {
     "dependencies": [],
