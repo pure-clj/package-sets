@@ -125,6 +125,34 @@
     "repo": "https://github.com/purescript/purescript-invariant.git",
     "version": "v4.0.0"
   },
+  "lazy": {
+    "dependencies": [
+      "control",
+      "foldable-traversable",
+      "invariant",
+      "prelude"
+    ],
+    "repo": "https://github.com/pure-clj/purescript-lazy.git",
+    "version": "v4.0.0-clj1"
+  },
+  "lists": {
+    "dependencies": [
+      "bifunctors",
+      "control",
+      "foldable-traversable",
+      "lazy",
+      "maybe",
+      "newtype",
+      "nonempty",
+      "partial",
+      "prelude",
+      "tailrec",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/purescript/purescript-lists.git",
+    "version": "v5.0.0"
+  },
   "math": {
     "dependencies": [],
     "repo": "https://github.com/pure-clj/purescript-math.git",
@@ -237,7 +265,7 @@
       "tuples"
     ],
     "repo": "https://github.com/pure-clj/purescript-unfoldable.git",
-    "version": "v4.0.0-clj"
+    "version": "v4.0.0-clj1"
   },
   "unsafe-coerce": {
     "dependencies": [],
