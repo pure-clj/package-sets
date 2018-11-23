@@ -203,7 +203,7 @@
   "prelude": {
     "dependencies": [],
     "repo": "https://github.com/pure-clj/purescript-prelude.git",
-    "version": "v4.0.0-clj1"
+    "version": "v4.1.0-clj1"
   },
   "refs": {
     "dependencies": [
