@@ -22,7 +22,7 @@
       "prelude"
     ],
     "repo": "https://github.com/pure-clj/purescript-console.git",
-    "version": "v4.1.0-clj1"
+    "version": "v4.2.0-clj1"
   },
   "const": {
     "dependencies": [
@@ -33,7 +33,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-const.git",
-    "version": "v4.0.0"
+    "version": "v4.1.0"
   },
   "contravariant": {
     "dependencies": [
@@ -50,7 +50,7 @@
       "prelude"
     ],
     "repo": "https://github.com/pure-clj/purescript-control.git",
-    "version": "v4.0.0-clj1"
+    "version": "v4.1.0-clj1"
   },
   "distributive": {
     "dependencies": [
@@ -78,7 +78,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-either.git",
-    "version": "v4.0.0"
+    "version": "v4.1.0"
   },
   "foldable-traversable": {
     "dependencies": [
@@ -90,7 +90,7 @@
       "prelude"
     ],
     "repo": "https://github.com/pure-clj/purescript-foldable-traversable.git",
-    "version": "v4.0.0-clj1"
+    "version": "v4.1.1-clj1"
   },
   "globals": {
     "dependencies": [],
@@ -106,7 +106,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-identity.git",
-    "version": "v4.0.0"
+    "version": "v4.1.0"
   },
   "integers": {
     "dependencies": [
@@ -123,7 +123,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-invariant.git",
-    "version": "v4.0.0"
+    "version": "v4.1.0"
   },
   "lazy": {
     "dependencies": [
@@ -151,7 +151,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purescript/purescript-lists.git",
-    "version": "v5.0.0"
+    "version": "v5.3.0"
   },
   "math": {
     "dependencies": [],
@@ -249,7 +249,7 @@
       "type-equality"
     ],
     "repo": "https://github.com/purescript/purescript-tuples.git",
-    "version": "v5.0.0"
+    "version": "v5.1.0"
   },
   "type-equality": {
     "dependencies": [],
