@@ -80,6 +80,22 @@
     "repo": "https://github.com/purescript/purescript-either.git",
     "version": "v4.1.0"
   },
+  "enums": {
+    "dependencies": [
+      "control",
+      "either",
+      "gen",
+      "maybe",
+      "newtype",
+      "nonempty",
+      "partial",
+      "prelude",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/pure-clj/purescript-enums.git",
+    "version": "v4.0.0-clj1"
+  },
   "foldable-traversable": {
     "dependencies": [
       "bifunctors",
