@@ -92,6 +92,22 @@
     "repo": "https://github.com/pure-clj/purescript-foldable-traversable.git",
     "version": "v4.1.1-clj1"
   },
+  "gen": {
+    "dependencies": [
+      "either",
+      "foldable-traversable",
+      "identity",
+      "maybe",
+      "newtype",
+      "nonempty",
+      "prelude",
+      "tailrec",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/purescript/purescript-gen.git",
+    "version": "v2.1.0"
+  },
   "globals": {
     "dependencies": [],
     "repo": "https://github.com/pure-clj/purescript-globals.git",
