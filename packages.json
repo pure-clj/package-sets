@@ -276,6 +276,15 @@
     "repo": "https://github.com/pure-clj/purescript-prelude.git",
     "version": "v4.1.0-clj1"
   },
+  "random": {
+    "dependencies": [
+      "effect",
+      "integers",
+      "math"
+    ],
+    "repo": "https://github.com/pure-clj/purescript-random.git",
+    "version": "v4.0.0-clj1"
+  },
   "refs": {
     "dependencies": [
       "effect",
