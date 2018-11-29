@@ -296,6 +296,13 @@
     "repo": "https://github.com/pure-clj/purescript-prelude.git",
     "version": "v4.1.0-clj1"
   },
+  "proxy": {
+    "dependencies": [
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript/purescript-proxy.git",
+    "version": "v3.0.0"
+  },
   "random": {
     "dependencies": [
       "effect",
