@@ -114,6 +114,16 @@
     "repo": "https://github.com/pure-clj/purescript-enums.git",
     "version": "v4.0.0-clj1"
   },
+  "exceptions": {
+    "dependencies": [
+      "effect",
+      "either",
+      "maybe",
+      "prelude"
+    ],
+    "repo": "https://github.com/pure-clj/purescript-exceptions.git",
+    "version": "v4.0.0-clj1"
+  },
   "foldable-traversable": {
     "dependencies": [
       "bifunctors",
