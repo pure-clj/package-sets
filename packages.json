@@ -1,4 +1,22 @@
 {
+  "arrays": {
+    "dependencies": [
+      "bifunctors",
+      "control",
+      "foldable-traversable",
+      "maybe",
+      "nonempty",
+      "partial",
+      "prelude",
+      "st",
+      "tailrec",
+      "tuples",
+      "unfoldable",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/pure-clj/purescript-arrays.git",
+    "version": "v5.1.0-clj1"
+  },
   "assert": {
     "dependencies": [
       "console",
