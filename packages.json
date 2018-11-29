@@ -363,6 +363,15 @@
     "repo": "https://github.com/purescript/purescript-type-equality.git",
     "version": "v3.0.0"
   },
+  "typelevel-prelude": {
+    "dependencies": [
+      "prelude",
+      "proxy",
+      "type-equality"
+    ],
+    "repo": "https://github.com/purescript/purescript-typelevel-prelude.git",
+    "version": "v3.0.0"
+  },
   "unfoldable": {
     "dependencies": [
       "foldable-traversable",
