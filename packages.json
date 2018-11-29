@@ -206,6 +206,19 @@
     "repo": "https://github.com/pure-clj/purescript-lazy.git",
     "version": "v4.0.0-clj1"
   },
+  "lcg": {
+    "dependencies": [
+      "effect",
+      "integers",
+      "math",
+      "maybe",
+      "partial",
+      "prelude",
+      "random"
+    ],
+    "repo": "https://github.com/purescript/purescript-lcg.git",
+    "version": "v2.0.0"
+  },
   "lists": {
     "dependencies": [
       "bifunctors",
