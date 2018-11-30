@@ -141,7 +141,7 @@
       "prelude"
     ],
     "repo": "https://github.com/pure-clj/purescript-functions.git",
-    "version": "v4.0.0-clj1"
+    "version": "v4.0.0-clj2"
   },
   "gen": {
     "dependencies": [
