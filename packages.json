@@ -312,6 +312,17 @@
     "repo": "https://github.com/pure-clj/purescript-random.git",
     "version": "v4.0.0-clj1"
   },
+  "record": {
+    "dependencies": [
+      "functions",
+      "prelude",
+      "st",
+      "typelevel-prelude",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/pure-clj/purescript-record.git",
+    "version": "v1.0.0-clj1"
+  },
   "refs": {
     "dependencies": [
       "effect",
