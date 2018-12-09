@@ -354,6 +354,28 @@
     "repo": "https://github.com/pure-clj/purescript-st.git",
     "version": "v4.0.0-clj1"
   },
+  "strings": {
+    "dependencies": [
+      "arrays",
+      "control",
+      "either",
+      "enums",
+      "foldable-traversable",
+      "gen",
+      "integers",
+      "maybe",
+      "newtype",
+      "nonempty",
+      "partial",
+      "prelude",
+      "tailrec",
+      "tuples",
+      "unfoldable",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/pure-clj/purescript-strings.git",
+    "version": "v4.0.1-clj1"
+  },
   "tailrec": {
     "dependencies": [
       "bifunctors",
