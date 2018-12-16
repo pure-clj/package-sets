@@ -317,6 +317,40 @@
     "repo": "https://github.com/purescript/purescript-proxy.git",
     "version": "v3.0.0"
   },
+  "quickcheck": {
+    "dependencies": [
+      "arrays",
+      "console",
+      "control",
+      "effect",
+      "either",
+      "enums",
+      "exceptions",
+      "foldable-traversable",
+      "gen",
+      "generics-rep",
+      "identity",
+      "integers",
+      "lazy",
+      "lcg",
+      "lists",
+      "math",
+      "maybe",
+      "newtype",
+      "nonempty",
+      "partial",
+      "prelude",
+      "record",
+      "st",
+      "strings",
+      "tailrec",
+      "transformers",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/pure-clj/purescript-quickcheck.git",
+    "version": "v5.0.0-clj1"
+  },
   "random": {
     "dependencies": [
       "effect",
